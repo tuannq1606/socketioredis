@@ -1,0 +1,24 @@
+{
+  "name": "socketioredis",
+  "version": "1.0.0",
+  "description": "Redis pub/sub consumer using Socket.io library.",
+  "main": "socketioredis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node socketioredis.js"
+  },
+  "keywords": [
+    "socket",
+    "pub/sub",
+    "redis",
+    "socket.io"
+  ],
+  "author": "Giang Thai Cuong <thaicuong.giang@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "ioredis": "^1.15.1",
+    "request": "^2.72.0",
+    "socket.io": "^1.4.6"
+  }
+}
